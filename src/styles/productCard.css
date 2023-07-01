@@ -1,0 +1,25 @@
+.container-flex{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    background-color: var(--white-color);
+    border-radius: 6px;
+    box-shadow: 2px 3px 2px 5px rgb(226, 223, 223);
+    align-items: center;
+    padding: 20px;
+}
+
+.container-flex:hover{
+    transform: scale(1.05);
+    box-shadow: -2px 2px 2px 2px  rgb(185, 178, 178);
+    transition: 0.5s;
+}
+
+.image-wrapper{
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+    background-color: aliceblue;
+}
+

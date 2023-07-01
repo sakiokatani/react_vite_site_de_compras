@@ -1,0 +1,10 @@
+:root{
+    /* common colors: */
+    --black-color: #07070700;
+    --white-color: #f7f7f7;
+    --main-color: #81da75;
+
+    /*font-sizes*/
+    --menu-font-size:18px;
+    --main-company-name:24px;
+}

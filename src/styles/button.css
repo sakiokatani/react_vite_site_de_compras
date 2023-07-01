@@ -1,0 +1,22 @@
+.btn-container{
+    display: flex;
+    width: 200px;
+    height: 24px;
+    align-items: center;
+    align-content: center;
+
+
+}
+
+.batata{
+    padding: 10px 20px;
+    border-radius: 10px;
+    width:100%;
+    text-align: center;
+    background-color: var(--main-color);
+    border-style: none;
+    box-shadow: 1px 1px 1px 1px rgb(226, 223, 223);
+    color: var(--white-color);
+    font-size: medium;
+    font-weight: 600;
+}
