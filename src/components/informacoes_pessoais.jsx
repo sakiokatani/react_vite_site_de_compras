@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import '../styles/informacoes_pessoais.css';
+// import '../styles/informacoes_pessoais.css';
 
 const InformacoesPessoais = (props)=>{
     return(

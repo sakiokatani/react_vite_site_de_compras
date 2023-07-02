@@ -1,0 +1,22 @@
+.menu-principal-footer-wrapper{
+    display: flex;
+    background-color: var(--main-color);
+    margin-bottom: 0;
+    padding: 10px;
+    height: 20vh;
+    align-items: center;
+}
+
+/* .first-column-wrapper{
+  
+} */
+
+li.footerLinks{
+    list-style: none;
+}
+
+li.footerLinks a{
+    color: var(--main-font-color);
+    font-weight: 600;
+
+}

@@ -1,8 +1,12 @@
 import './App.css'
 import InformacoesPessoais from './components/informacoes_pessoais'
+import React from 'react'
+import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import ProductCard from './components/Product-card'
-import MenuBar from './components/menubar'
+import MenuBar from './components/Menubar'
+import Footer from './components/Footer'
+import ProductData from './product_data/products.json'
 
 function App() {
 
@@ -21,7 +25,8 @@ function App() {
     prop4: "Modelos eletronicos",
     prop5: "Pintura"
    }
-
+   const [data, setData] = useState(ProductData);
+   
   return (
 
       <div>
@@ -32,7 +37,19 @@ function App() {
           </div>
         </div>
         <div className='body-container'>
-          <ProductCard/>
+        {ProductData.map((product) => (
+            <ProductCard class="productCard"
+              key={product.id}
+              id={product.id}
+              nome={product.nome}
+              descricao={product.descricao}
+              preco={product.preco}
+              imagem={product.imagem}
+            />
+          ))}
+        </div>
+        <div className='footer-container'>
+          <Footer/>
         </div>
       </div>
   )

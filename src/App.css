@@ -4,9 +4,11 @@
 }
 
 .body-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/3, max(64px, 100%/5)), 1fr));
     box-sizing: border-box;
     margin-top: 10vh;
     padding: 30px;
-
+    justify-content: space-between;
+    gap:30px;
 }

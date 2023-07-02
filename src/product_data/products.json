@@ -1,0 +1,52 @@
+[
+    {
+    "id": "1",
+    "nome": "Datilógrafo Corona",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "typewriter.jpg"
+    },
+    {
+    "id": "2",
+    "nome": "Bicicleta Veia",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "bicycle.jpg"
+    },
+    {
+    "id": "3",
+    "nome": "Caderneta",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "bicycle.jpg"
+    },
+    {
+    "id": "4",
+    "nome": "Caderneta",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "bicycle.jpg"
+    },
+    {
+    "id": "5",
+    "nome": "Caderneta",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "bicycle.jpg"
+    },
+    {
+    "id": "6",
+    "nome": "Caderneta",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "bicycle.jpg"
+    },
+    {
+    "id": "7",
+    "nome": "Caderneta",
+    "descricao": "Datilógrafo anos 50 em perfeito estado. Acompanha cacrtuchos vermelho e preto",
+    "preco": "R$250,00",
+    "imagem": "bicycle.jpg"
+    }
+    
+]
