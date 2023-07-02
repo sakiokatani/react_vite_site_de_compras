@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types'
 import headerStyle from '../styles/header.css'
-import logo from '../assets/circular-logo.png'
+import logo from '../../public/assets/circular-logo.png'
 
 const Header = ({prop1, prop2, prop3, prop4})=>{
     return(
