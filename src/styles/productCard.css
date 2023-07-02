@@ -7,6 +7,7 @@
     border-radius: 6px;
     box-shadow: 2px 3px 2px 5px rgb(226, 223, 223);
     align-items: center;
+    align-content: center;
     padding: 20px;
 }
 
@@ -21,5 +22,15 @@
     height: 200px;
     border-radius: 3px;
     background-color: aliceblue;
+}
+
+p{
+    padding: 20px 5px;
+}
+
+Button{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 

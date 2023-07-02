@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px 2px var(--box-shadow);
+    border-radius: 0;
+    align-items: center;
+    align-content: center;
+    background-color: var(--white-color);
+}
+
+ul.menubar{
+    display: flex;
+    flex-direction: row;
+    gap: 15vw;
+    margin-top: 10px;
+    
+}
+
+li.nav-item{
+    list-style: none;
+    font-size: 1.2em;
+    font-family: var( --main-company-name-font);
+}
+
+.nav-link{
+    color: var(--blue-color);
+    text-decoration: none;
+    
+}
+
+.nav-link:hover{
+    color: #86a1aa;
+    text-decoration: none;
+}
