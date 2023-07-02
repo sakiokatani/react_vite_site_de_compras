@@ -2,39 +2,53 @@ import React from "react";
 import PropTypes from 'prop-types'
 import menuStyles from '../styles/menubar.css'
 
+
+
 const MenuBar=({prop1, prop2, prop3, prop4, prop5}) =>{
-    
+
+    const menuItems=[
+
+        {
+        id: 1,
+        label:"Sobre a empresa",
+        path:"#",
+        },
+        {
+        id: 2,
+        label:"Serviços",
+        path:"#",
+        },
+        {
+        id: 3,
+        label:"Fale Conosco",
+        path:"#",
+        },
+        {
+        id: 4,
+        label:"Trabalhe Conosco",
+        path:"#",
+        }
+    ]
+const renderMenuItems = (menuItems) =>{
+    return(
+            <li className="nav-item">
+                <a className="nav-link" href={menuItems.path}>
+                    {menuItems.label}
+                </a>
+            </li>
+    );
+}
     return(
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
             <ul className="menubar">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {prop1}
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {prop2}
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {prop3}
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {prop4}
-                    </a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    {prop5}
-                    </a>
-                </li>
+                {menuItems.map(renderMenuItems)}
             </ul>
         </nav>
     )
 }
-
+MenuBar.propTypes ={
+    id: PropTypes.number.isRequired,
+    label: PropTypes.string.isRequired,
+    path: PropTypes.string.isRequired,
+}
 export default MenuBar;
