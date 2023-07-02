@@ -25,13 +25,15 @@
     overflow: hidden;
 }
 
-.produtoTypeWriter{
-    height: 200px;
-    margin-left: -65px ;
+.fotoProduto{
+    height: 250px;
+    width: 250px;
+    margin-top: -25px;
+    margin-left: -25px;
 }
 
-p{
-    padding: 20px 5px;
+.description-wrapper{
+    padding:5px;
 }
 
 Button{
