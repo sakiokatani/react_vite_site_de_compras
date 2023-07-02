@@ -7,7 +7,7 @@ const Header = ({prop1, prop2, prop3, prop4})=>{
     return(
         <nav className='menu-principal-wrapper'>
             <div className='logo-wrapper text-left'>
-                <a className="logo-redirect" href="#"><img className= "logo-resize" src={logo}></img></a>
+                <a className="logo-redirect" href="#"><img className= "logo-resize" src={logo} alt='logo-Rehobby'></img></a>
                 <a className='companyName' href='#'>{prop4}</a>
                 
             </div>

@@ -21,7 +21,12 @@
     width: 200px;
     height: 200px;
     border-radius: 3px;
-    background-color: aliceblue;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.produtoBicicleta{
+    width: 200px;
 }
 
 p{

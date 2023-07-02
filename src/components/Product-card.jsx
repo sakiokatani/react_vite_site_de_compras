@@ -1,7 +1,7 @@
 import React from "react";
 import Button from './Button.jsx'
 import productCardStyle from "../styles/ProductCard.css"
-// import bicicleta from '../assets/bicycle.jpg'
+import bicicleta from '../../public/assets/bicycle.jpg'
 
 function ProductCard(){
     const button={
@@ -11,6 +11,7 @@ function ProductCard(){
     return(
         <div className="container-flex">
             <div className="image-wrapper">
+                <img className="produtoBicicleta"src={bicicleta} alt="bicicleta aro 26" />
             </div>
             <div className="description-wrapper">
                 <p>Uma descrição de Produto aqui</p> 
