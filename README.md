@@ -4,7 +4,7 @@
 <h4>Full Stack Developer-SENAI<h4>
 
 <strong>Proposta:</strong>
-    <p>A proposta dos exercícios da semana é criar uma  lanfing-page de e-commerce, utilizando framework <strong>React</strong> e a ferramenta <strong>Bootstrap</strong>.</p>
+    <p>A proposta dos exercícios da semana é criar uma  landing-page de e-commerce, utilizando framework <strong>React</strong> e a ferramenta <strong>Bootstrap</strong>.</p>
 
 <strong>Da fase de produção:</strong>
     <ul>
